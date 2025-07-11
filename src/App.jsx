@@ -9,7 +9,7 @@ import TestimonialCard from "./components/TestimonialCard";
 function App() {
   return (
     <>
-      <div className="grid grid-cols-2 p-15 ml-15">
+      <div className="flex flex-col p-8 md:grid md:grid-cols-2 md:ml-10 md:px-20 md:pt-5">
         <Header />
         <Rating />
         <TestimonialCard />
